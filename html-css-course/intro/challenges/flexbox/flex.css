@@ -1,0 +1,32 @@
+.div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.div1 {
+    background-color: aqua;
+}
+.div2 {
+    background-color: tan;
+}
+.div11 {
+    background-color: aqua;
+    width: 100px;
+}
+.div22 {
+    background-color: tan;
+    flex: 1;
+}
+.div111 {
+    background-color: aqua;
+    width: 100px;
+}
+.div112 {
+    background-color: aqua;
+    width: 100px;
+    flex: 2;
+}
+.div222 {
+    background-color: tan;
+    flex: 1;
+}
