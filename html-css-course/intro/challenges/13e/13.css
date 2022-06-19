@@ -1,0 +1,75 @@
+.inbox {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    border: solid 1px red;
+    width: 500px;
+}
+
+.sender {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.subject {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.message {
+    opacity: 0.8;
+
+}
+
+.chewy {
+    display: flex;
+    width: 500px;
+    /* justify-content: space-between; */
+    vertical-align: top;
+    /* border: solid 1px blue; */
+}
+.best-buy {
+    display: flex;
+    width: 500px;
+    /* justify-content: space-between; */
+    vertical-align: top;
+    /* border: solid 1px blue; */
+}
+.netflix {
+    display: flex;
+    width: 500px;
+    /* justify-content: space-between; */
+    vertical-align: top;
+    /* border: solid 1px blue; */
+}
+
+.cat-img-div {
+    align-items: ;
+}
+
+.cat {
+    width: 95px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.subject-time{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 5rem;
+}
+
+.text p{
+    margin-left: 12px;
+}
+
+.message-div {
+    margin-top: -24px;
+}
