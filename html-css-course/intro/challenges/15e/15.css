@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    height: 280px;
+    background-size: contain;
+    background-color: red;
+    background-image: url(/html-css-course/images/thumbnail-8.webp);
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    padding: 3px 6px;
+    right: 0;
+    top: 10px;
+}
+
+.book-now {
+    /* position: absolute; */
+    width: 500px;
+    background-color: red;
+    left: 50px;
+    /* right: 0; */
+    align-items:center;
+    padding: ;
+}
+
+.book-button {
+    align-items: center;
+}

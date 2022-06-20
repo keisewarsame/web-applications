@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="youtube.css">
         <link rel="stylesheet" href="youtube-header.css">
         <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="sidebar.css">
     </head>
     <body>
         
@@ -20,26 +21,76 @@
                 <input class="search" type="text" placeholder="Search">
                 <button class="search-button">
                     <img class="search-icon" src="/html-css-course/icons/search.svg" />
+                    <div class="tooltip">Search</div>
                 </button>
                 <button class="voice-button">
                     <img class="voice-search-icon" src="/html-css-course/icons/voice-search-icon.svg" />
+                    <div class="tooltip">Search with your voice</div>
+                    
                 </button>
             </div>
             <div class="right-section">
-                <img class="upload-icon" src="/html-css-course/icons/upload.svg" >
-                <img class="youtube-apps-icon" src="/html-css-course/icons/youtube-apps.svg" >
-                <img class="notifications-icon" src="/html-css-course/icons/notifications.svg" >
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="/html-css-course/icons/upload.svg" >
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-app-icon-container">
+                    <img class="youtube-apps-icon" src="/html-css-course/icons/youtube-apps.svg" >
+                    <div class="tooltip">YouTube Apps</div>
+                </div>
+                <div class="noti-icon-container">
+                    <img class="notifications-icon" src="/html-css-course/icons/notifications.svg" >
+                    <div class="noti-count">3</div>
+                    <div class="tooltip">Notifications</div>
+
+                </div>
                 <img class="current-user-icon" src="/html-css-course/profile pictures/my-channel.jpeg" >
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/home.svg"/>
+                <p>Home</p>
+            </div>
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/explore.svg"/>
+                <p>Explore</p>
+            </div>
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/subscriptions.svg"/>
+                <p>subscriptions</p>
+            </div>
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/originals.svg"/>
+                <p>Originals</p>
+            </div>
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/youtube-music.svg"/>
+                <p>Youtube Music</p>
+            </div>
+            <div class="sidebar-link">
+                <img src="/html-css-course/icons/library.svg"/>
+                <p>Library</p>
             </div>
         </div>
         <div class="video-grid">
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-1.webp" />
+                    <div class="video-time">14:20</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
                         <img class="profile-pic" src="/html-css-course/profile pictures/channel-1.jpeg" />
+                        <div class="profile-popout">
+                            <div class="profile-popout-img">
+                                <img class="profile-pic" src="/html-css-course/profile pictures/channel-1.jpeg" />
+                            </div>
+                            <div class="profile-popout-text">
+                                <p class="profile-popout-text-name">Markiplier</p>
+                                <p class="profile-popout-text-subs">30M subscribers</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
@@ -51,6 +102,8 @@
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-2.webp" />
+                    <div class="video-time">8:22</div>
+
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
@@ -66,6 +119,8 @@
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-3.webp" />
+                    <div class="video-time">9:13</div>
+
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
@@ -81,6 +136,8 @@
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-4.webp" />
+                    <div class="video-time">22:09</div>
+
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
@@ -96,6 +153,8 @@
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-5.webp" />
+                    <div class="video-time">11:17</div>
+
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
@@ -111,6 +170,8 @@
             <div class="preview">
                 <div class="channel-thumb">
                     <img class="thumbnail" src="images/thumbnail-6.webp" />
+                    <div class="video-time">19:59</div>
+
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-img">
